@@ -1,0 +1,61 @@
+:root {
+  --fundo: #100527;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+.splash-container {
+  font-family: "M PLUS Rounded 1c", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  background: var(--fundo);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.splash-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: xx-large;
+}
+.splash-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.splash-img img {
+  height: 250px;
+  width: 250px;
+  mix-blend-mode: screen;
+}
+.text {
+  display: flex;
+  flex-direction: row;
+}
+.text:nth-child(n + 2) {
+  background-clip: text;
+}
+.background-text {
+  background-color: white;
+  color: var(--fundo);
+  font-weight: bolder;
+  padding: 1px;
+}
+.barra1 {
+  width: 8%; /* ou qualquer porcentagem desejada */
+  border: white solid 1px;
+  position: fixed;
+  top: 371px;
+
+  right: 40%; /* ajuste a posição horizontal conforme necessário */
+}
